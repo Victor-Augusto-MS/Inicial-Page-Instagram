@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.imagemPrincipal {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagemPrincipal img {
+    width: 700px;
+    height: 700px;
+}
+
+.containerLateral {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+  min-height: 476px;
+}
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 19px 0;
+  background-color: #ffffff;
+  border: 1px solid #bfbdbd;
+  color: gray;
+}
+
+.bloco img {
+    height: 3rem;
+}
+
+.bloco:nth-child(1) {
+    min-height: 250px;
+}
+
+.fotoPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.fotoPerfil img {
+    height: 84px;
+}
+
+.continuar {
+  padding: 8px;
+  background-color: #0095f6;
+  border: 1px solid #0095f6;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.remover {
+  color: #0095f6;
+}
+
+.bluetext {
+  color: #0095f6;
+  cursor: pointer;
+}
+
+.plataformasDownload {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoDownloads {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logoDownloads img {
+  width: 35%;
+  padding: 20px;
+}
